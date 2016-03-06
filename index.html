@@ -46,50 +46,15 @@
                   </ul>
                 </section>
                 <section>
-                  <h2>The mightiest tool</h2>
-<pre><code>.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  border: 0;
-}</code></pre>
-                  <p>💩<span class="sr-only">(Poop emoji)</span></p>
-                  <pre><code>💩&lt;span class="sr-only"&gt;(Poop emoji)&lt;/span&gt;</code></pre>
-                  <a href="#" class="navigate-right"><span class="sr-only">Next slide</span>&gt;&gt;</a>
+                  <h1>Common pitfalls</h1>
                 </section>
                 <section>
-                  <h2>WAI ARIA</h2>
-                  <p><button><span class="fa fa-share-alt"></span> Share</button></p>
-                  <pre><code>&lt;button&gt;&lt;span class=&quot;fa fa-share-alt&quot;&gt;&lt;/span&gt; Share&lt;/button&gt;</code></pre>
-                  <p><button><span class="fa fa-share-alt" role="presentation" aria-hidden="true"></span> Share</button></p>
-                  <pre><code>&lt;button&gt;&lt;span class=&quot;fa fa-share-alt&quot; role=&quot;presentation&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt; Share&lt;/button&gt;</code></pre>
-                  <p class="sr-only">Much better!</p>
-                  <a href="#" class="navigate-right"><span class="sr-only">Next slide</span><span aria-hidden="true">&gt;&gt;</span></a>
-                </section>
-                <section>
-                  <h2>Form element labels (1)</h2>
-                  <form>
-                    <legend>Please fill in the required fields (marked in red)</legend>
-                    <span style="color: red">Do you like 💩?</span>
-                    <input type="checkbox" />
-                  </form>
-<pre><code>&lt;span style="color: red"&gt;Do you like 💩?&lt;/span&gt;
-&lt;input type="checkbox" /&gt;</code></pre>
-                  <a href="#" class="navigate-right"><span class="sr-only">Next slide</span><span aria-hidden="true">&gt;&gt;</span></a>
-                </section>
-                <section>
-                  <h2>Form element labels (2)</h2>
-                  <form>
-                    <legend>Please fill in the required fields (marked with an asterisk)</legend>
-                    <label for="poop-checkbox">Do you like 💩? <strong>*</strong></label>
-                    <input id="poop-checkbox" type="checkbox" />
-                  </form>
-<pre><code>&lt;label for="poop-checkbox"&gt;Do you like 💩?&lt;strong&gt;*&lt;/strong&gt;&lt;/label&gt;
-&lt;input id="poop-checkbox" type="checkbox" /&gt;</code></pre>
+                  <h2>In summary ...</h2>
+                  <ul>
+                    <li>Have a text alternative for visual info</li>
+                    <li>Have a text alternative for colours</li>
+                    <li>Make sure everything works with the keyboard</li>
+                  </ul>
                 </section>
             </div>
         </div>
